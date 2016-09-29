@@ -1,5 +1,5 @@
 /*
-Student Name:Saugat karki
+Student Name:Rohan Lal Pradhan
 subject: Programing Fundamentals
 Roll:
 Program:To find out area of traingle
