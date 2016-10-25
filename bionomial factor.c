@@ -34,16 +34,14 @@ int main()
 					}
 				
 				for(a=r;a>0;a--)
-							{
-								rfact*=a;
-						
-							}
+					{
+						rfact*=a;
+					}
 				
 				for(a=(n-r);a>0;a--)
-									{
-										nrfact*=a;
-						
-									}
+					{
+					nrfact*=a;
+					}
 				z=nfact/(rfact*nrfact);
 					
 				printf("+ %da^%d b^%d",z,n-r,r);
