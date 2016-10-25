@@ -3,7 +3,7 @@ Students Name: Rohan Pradhan
 Roll No.:
 Lab No:8
 Subject: Programming Fundmentals
-Program:
+Program: binomial 
 Date: 25th october
 
 */
@@ -25,27 +25,31 @@ int main()
 				nfact=1;
 				rfact=1;
 				nrfact=1;
+				
+				
 				for(a=n;a>0;a--)
 					{
 						nfact*=a;
 						
 					}
-					for(a=r;a>0;a--)
-					{
-						rfact*=a;
+				
+				for(a=r;a>0;a--)
+							{
+								rfact*=a;
 						
-					}
-					for(a=(n-r);a>0;a--)
-					{
-						nrfact*=a;
+							}
+				
+				for(a=(n-r);a>0;a--)
+									{
+										nrfact*=a;
 						
-					}
-					z=nfact/(rfact*nrfact);
+									}
+				z=nfact/(rfact*nrfact);
 					
-				printf("+%da^%db^%d",z,n-r,r);
+				printf("+ %da^%d b^%d",z,n-r,r);
 				
 			}
-			printf("+b^%d\n\n",n);
+			printf("+ b^%d\n\n",n);
 			goto m;
 			
 	}
